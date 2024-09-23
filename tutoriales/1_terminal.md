@@ -145,4 +145,7 @@ El operador | conecta la salida de un comando con la entrada de otro, creando un
 
 ![image](https://github.com/user-attachments/assets/1c94b18b-1a5c-4c85-a64a-cd0d4fc118d1)
 
+#Actividad: Generar esta structura de directorio y archivos 
+
+![image](https://github.com/user-attachments/assets/41bccaf5-ef9b-4d77-81fc-0ae921c5bb00)
 
