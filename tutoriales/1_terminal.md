@@ -23,18 +23,18 @@ El prompt indica que el sistema está listo para recibir un comando. Cuando se a
 + ~: El directorio en el que te encuentras actualmente (en este caso, el directorio personal o "home")
 
 
-## Navegación por archivos y directorios
+## Comandos básicos
 
 La línea de comandos es una herramienta muy potente para navegar por el sistema de archivos. Aquí aprenderemos a moverte entre carpetas, 
 listar el contenido y verificar en qué directorio nos encontramos.
 
 
-
+### pwd
 + pwd (Print Working Directory): Este comando te muestra en qué directorio estás actualmente. Úsalo cuando quieras verificar tu ubicación dentro del sistema de archivos.
 
 ![image](https://github.com/user-attachments/assets/13b9e8c4-4430-458c-87a8-c21a19fcae9d)
 
-
+### ls
 El comando _ls_ lista el contenido del directorio actual, mostrando los archivos y carpetas que están presentes en la ubicación actual. 
 Es uno de los comandos más utilizados porque que permite explorar el contenido de diferentes directorios.
 
