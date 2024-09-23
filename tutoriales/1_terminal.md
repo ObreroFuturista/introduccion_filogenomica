@@ -62,7 +62,8 @@ Las rutas relativas no comienzan con /. En cambio, se basan en el directorio act
 
 + **..** (doble punto) para referirse al directorio superior o padre.
 
-![image](https://github.com/user-attachments/assets/8168461d-1d94-497d-8012-e80c70a3dc2a)
+![image](https://github.com/user-attachments/assets/81525691-da6d-49c2-b0e5-bf55907c1e7e)
+
 
 
 ## cd (Change Directory)
@@ -147,5 +148,6 @@ El operador | conecta la salida de un comando con la entrada de otro, creando un
 
 # Actividad: Generar esta structura de directorio y archivos 
 
-![image](https://github.com/user-attachments/assets/41bccaf5-ef9b-4d77-81fc-0ae921c5bb00)
+![image](https://github.com/user-attachments/assets/8f1c159f-c73e-4de5-8b67-a9ed1d3ab0ee)
+
 
