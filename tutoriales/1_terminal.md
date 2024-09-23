@@ -105,8 +105,9 @@ El comando mv permite mover archivos de una ubicación a otra o renombrarlos. Si
 
 
 
+## wget: Descarga archivos desde la web
+El comando wget se usa para descargar archivos de Internet desde la línea de comandos. 
+> wget https://zenodo.org/records/3736457/files/9_Swamp_S2B_trnL_2019_minq7.fastq
 
 
 
-
-![image](https://github.com/user-attachments/assets/c65f89ab-3b35-4acb-8c92-abbb6f39ca0a)
