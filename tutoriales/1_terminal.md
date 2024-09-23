@@ -49,6 +49,20 @@ Es uno de los comandos más utilizados porque que permite explorar el contenido 
 
 
 
+Cuando nos movemos entre directorios o trabajas con archivos, hay dos tipos de rutas que podemos utilizar:
+
+Ruta Absoluta
+Una ruta absoluta es aquella que comienza desde el directorio raíz del sistema de archivos, que en Linux y macOS está representado por **/**. 
+Este tipo de ruta proporciona la ubicación completa de un archivo o directorio, desde el directorio raíz hasta el destino final. Siempre comienza con **/**.
+
+Una ruta relativa es aquella que se especifica en relación con el directorio en el que se está trabajando actualmente. En lugar de comenzar desde el directorio raíz, se inicia desde la ubicación actual dentro del sistema de archivos, que puede variar dependiendo del directorio de trabajo en el que se esté.
+
+Las rutas relativas no comienzan con /. En cambio, se basan en el directorio actual y pueden incluir referencias especiales como:
+
++ **.** (punto) para referirse al directorio actual.
+
+++ **..** (doble punto) para referirse al directorio superior o padre.
+
 
 
 
