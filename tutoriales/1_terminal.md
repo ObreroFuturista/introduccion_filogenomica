@@ -138,7 +138,7 @@ La redirección permite enviar la salida de un comando a un archivo en lugar de 
 
 ![image](https://github.com/user-attachments/assets/68721bde-f5ab-452d-ae01-a44623ed161b)
 
-# Tuberías (|)
+## Tuberías (|)
 El operador | conecta la salida de un comando con la entrada de otro, creando una secuencia de comandos en una línea.
 
 ![image](https://github.com/user-attachments/assets/185ad342-a845-407e-96a1-4fac422fcf30)
