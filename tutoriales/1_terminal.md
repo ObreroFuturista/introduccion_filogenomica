@@ -29,12 +29,12 @@ La línea de comandos es una herramienta muy potente para navegar por el sistema
 listar el contenido y verificar en qué directorio nos encontramos.
 
 
-### pwd
+## pwd
 + pwd (Print Working Directory): Este comando te muestra en qué directorio estás actualmente. Úsalo cuando quieras verificar tu ubicación dentro del sistema de archivos.
 
 ![image](https://github.com/user-attachments/assets/13b9e8c4-4430-458c-87a8-c21a19fcae9d)
 
-### ls
+## ls
 El comando _ls_ lista el contenido del directorio actual, mostrando los archivos y carpetas que están presentes en la ubicación actual. 
 Es uno de los comandos más utilizados porque que permite explorar el contenido de diferentes directorios.
 
@@ -109,5 +109,40 @@ El comando mv permite mover archivos de una ubicación a otra o renombrarlos. Si
 El comando wget se usa para descargar archivos de Internet desde la línea de comandos. 
 > wget https://zenodo.org/records/3736457/files/9_Swamp_S2B_trnL_2019_minq7.fastq
 
+![image](https://github.com/user-attachments/assets/9ab0ae26-b054-48a1-af4f-b91968ae7eda)
+
+
+## cat (Concatenate)
+Este comando muestra el contenido de un archivo en la terminal. Es ideal para visualizar archivos de texto rápidamente.
+
+![image](https://github.com/user-attachments/assets/94ad94d0-6aff-4fa2-8010-01792a3fc36c)
+
+![image](https://github.com/user-attachments/assets/51f4b9e0-b5f5-400c-9db1-b18e01edf08f)
+
+
+## less
+El comando less permite visualizar archivos de forma interactiva, desplazándote hacia arriba o abajo. Para salir de less, presiona la tecla q.
+
+
+## Redirección de salida (>, >>)
+La redirección permite enviar la salida de un comando a un archivo en lugar de mostrarla en pantalla. Esto es útil para guardar los resultados de análisis o comandos largos.
+
+![image](https://github.com/user-attachments/assets/9af2e2a5-ad74-4278-ad0e-2fb03efd87bb)
+
+![image](https://github.com/user-attachments/assets/e730924a-900a-4ef7-9d03-f045922c2e8b)
+
+
+> echo "ATCG" > A.txt  # Sobrescribe el archivo
+
+> echo "GGTA" >> A.txt  # Añade al archivo
+
+![image](https://github.com/user-attachments/assets/68721bde-f5ab-452d-ae01-a44623ed161b)
+
+# Tuberías (|)
+El operador | conecta la salida de un comando con la entrada de otro, creando una secuencia de comandos en una línea.
+
+![image](https://github.com/user-attachments/assets/185ad342-a845-407e-96a1-4fac422fcf30)
+
+![image](https://github.com/user-attachments/assets/1c94b18b-1a5c-4c85-a64a-cd0d4fc118d1)
 
 
