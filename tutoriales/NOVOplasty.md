@@ -37,3 +37,6 @@ Descripción de los parámetros clave:
 
 ## Ejecutar NOVOPlasty
 Con el archivo de configuración listo, se puede iniciar el ensamblaje. Para ello, debe ejecutarse el siguiente comando en la terminal, dentro del directorio de trabajo que contiene el archivo de configuración y los datos de secuencias.
+
+> python NOVOPlasty.py -c config.txt
+
