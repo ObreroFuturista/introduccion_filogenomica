@@ -38,24 +38,23 @@ listar el contenido y verificar en qué directorio nos encontramos.
 El comando _ls_ lista el contenido del directorio actual, mostrando los archivos y carpetas que están presentes en la ubicación actual. 
 Es uno de los comandos más utilizados porque que permite explorar el contenido de diferentes directorios.
 
+![image](https://github.com/user-attachments/assets/7d3711e6-88cb-4bed-a28a-007d9717b4ef)
 
-![image](https://github.com/user-attachments/assets/883d913a-1ae2-42ee-b9b7-7be0bf62f3dc)
 
 + ls -l: Muestra una lista detallada con información adicional como permisos de archivos, propietarios, tamaño y fecha de modificación.
 + ls -a: Muestra todos los archivos, incluyendo los ocultos (aquellos cuyo nombre comienza con un punto ., como .bashrc).
 + ls -lh: Lista los archivos en un formato legible por humanos, donde los tamaños de archivos se muestran en KB, MB, etc.
 
-![image](https://github.com/user-attachments/assets/26d4b82c-9344-4068-9179-dd63eea3d819)
-
+![image](https://github.com/user-attachments/assets/ae0982ab-5294-4f1b-83ee-da26cb07202c)
 
 
 Cuando nos movemos entre directorios o trabajas con archivos, hay dos tipos de rutas que podemos utilizar:
 
-Ruta Absoluta
-Una ruta absoluta es aquella que comienza desde el directorio raíz del sistema de archivos, que en Linux y macOS está representado por **/**. 
+Rutas
+Una **ruta absoluta** es aquella que comienza desde el directorio raíz del sistema de archivos, que en Linux y macOS está representado por **/**. 
 Este tipo de ruta proporciona la ubicación completa de un archivo o directorio, desde el directorio raíz hasta el destino final. Siempre comienza con **/**.
 
-Una ruta relativa es aquella que se especifica en relación con el directorio en el que se está trabajando actualmente. En lugar de comenzar desde el directorio raíz, se inicia desde la ubicación actual dentro del sistema de archivos, que puede variar dependiendo del directorio de trabajo en el que se esté.
+Una **ruta relativa** es aquella que se especifica en relación con el directorio en el que se está trabajando actualmente. En lugar de comenzar desde el directorio raíz, se inicia desde la ubicación actual dentro del sistema de archivos, que puede variar dependiendo del directorio de trabajo en el que se esté.
 
 Las rutas relativas no comienzan con /. En cambio, se basan en el directorio actual y pueden incluir referencias especiales como:
 
@@ -66,33 +65,44 @@ Las rutas relativas no comienzan con /. En cambio, se basan en el directorio act
 ![image](https://github.com/user-attachments/assets/8168461d-1d94-497d-8012-e80c70a3dc2a)
 
 
+## cd (Change Directory)
+El comando _cd_ se utiliza para cambiar de directorio. Puedes moverte a un directorio específico utilizando su ruta absoluta o relativa.
 
 
+![image](https://github.com/user-attachments/assets/b61c8889-b41f-431f-adcf-519870a30957)
+
++ cd ..: Sube un nivel en la jerarquía de directorios (al directorio anterior).
++ cd ~: Te lleva al directorio de inicio del usuario actual.
++ cd /: Te lleva al directorio raíz del sistema.
 
 
+## mkdir (Make Directory)
+Este comando permite crear un nuevo directorio o carpeta. Es útil para organizar trabajo en diferentes directorios.
 
+![image](https://github.com/user-attachments/assets/1311fa6e-5ce0-40ae-9df6-0056ea67e9c1)
 
+## touch (Crear archivos vacíos)
+El comando touch se usa para crear un archivo vacío o actualizar la fecha de modificación de un archivo existente. Es muy común usarlo para generar archivos de forma rápida, aunque estén vacíos.
 
+![image](https://github.com/user-attachments/assets/ef25578c-feb0-43b5-b1b7-c35832581c7d)
 
+## cp (Copy)
+Este comando se usa para copiar archivos o directorios. La opción -r es importante cuando queremos copiar directorios completos de forma recursiva.
 
+para copiar archivos:
+>cp archivo_origen archivo_destino
 
+Para copiar directorios:
+> cp -r directorio_origen directorio_destino
 
+![image](https://github.com/user-attachments/assets/6f20d898-0ef9-4154-b166-ed5068c27c80)
 
+## mv (Move/Rename)
+El comando mv permite mover archivos de una ubicación a otra o renombrarlos. Si el archivo no se mueve de directorio, simplemente se renombra.
+> mv archivo_origen archivo_destino
 
+![image](https://github.com/user-attachments/assets/d8a861d9-bbfe-4611-aaf1-848b080ecc54)
 
-
-
-
-
-
-
-
-### 1.1 Rutas absolutas
-
-Una ruta absoluta especifica la ubicación exacta de un archivo o directorio desde el directorio raíz (/), 
-que es el punto más alto de la jerarquía de directorios en Linux. Siempre comienzan con el carácter **/**
-
-Ejemplo: Si tienes un archivo llamado _secuencia.fasta_ en la carpeta Documentos de tu usuario, la ruta absoluta al archivo sería:
 
 
 
