@@ -16,7 +16,7 @@ como es común en bioinformática.
 
 El prompt indica que el sistema está listo para recibir un comando. Cuando se abre la terminal, aparecerá algo como esto:
 
-![image](https://github.com/user-attachments/assets/0f88b950-d2bf-43c6-9071-44736ee2d935)
+![image](https://github.com/user-attachments/assets/f39bb81b-8eaa-4c2b-b0ee-1552993827da)
 
 + user: Tu nombre de usuario.
 + hostname: El nombre de tu máquina.
@@ -32,20 +32,20 @@ listar el contenido y verificar en qué directorio nos encontramos.
 
 + pwd (Print Working Directory): Este comando te muestra en qué directorio estás actualmente. Úsalo cuando quieras verificar tu ubicación dentro del sistema de archivos.
 
-![image](https://github.com/user-attachments/assets/7ee5ac00-53d5-454f-8bd5-efd601ebc877)
+![image](https://github.com/user-attachments/assets/13b9e8c4-4430-458c-87a8-c21a19fcae9d)
 
 
 El comando _ls_ lista el contenido del directorio actual, mostrando los archivos y carpetas que están presentes en la ubicación actual. 
 Es uno de los comandos más utilizados porque que permite explorar el contenido de diferentes directorios.
 
 
-![image](https://github.com/user-attachments/assets/0efc752e-520b-438d-acc6-05eaa8b94878)
+![image](https://github.com/user-attachments/assets/883d913a-1ae2-42ee-b9b7-7be0bf62f3dc)
 
 + ls -l: Muestra una lista detallada con información adicional como permisos de archivos, propietarios, tamaño y fecha de modificación.
 + ls -a: Muestra todos los archivos, incluyendo los ocultos (aquellos cuyo nombre comienza con un punto ., como .bashrc).
 + ls -lh: Lista los archivos en un formato legible por humanos, donde los tamaños de archivos se muestran en KB, MB, etc.
 
-![image](https://github.com/user-attachments/assets/7ce84ba6-59f9-4169-a146-ace7a825abb5)
+![image](https://github.com/user-attachments/assets/26d4b82c-9344-4068-9179-dd63eea3d819)
 
 
 
@@ -61,7 +61,9 @@ Las rutas relativas no comienzan con /. En cambio, se basan en el directorio act
 
 + **.** (punto) para referirse al directorio actual.
 
-++ **..** (doble punto) para referirse al directorio superior o padre.
++ **..** (doble punto) para referirse al directorio superior o padre.
+
+![image](https://github.com/user-attachments/assets/8168461d-1d94-497d-8012-e80c70a3dc2a)
 
 
 
