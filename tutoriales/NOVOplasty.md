@@ -16,12 +16,11 @@ Se activa el ambiente correspondiente
 
 > conda activate novoplasty
 
-![image](https://github.com/user-attachments/assets/fe2c34b5-7929-487f-93dc-3a9745c81245)
-
+Para correr novoplasty es necesario lo siguiente
 
 + Datos de secuenciación: Se requiere un archivo de secuencias en formato FASTQ con lecturas cortas (Illumina), las cuales pueden estar comprimidas en formato .fastq.gz.
 
-+ Secuencia de semilla (seed): Es recomendable contar con una secuencia corta de ADN (20-200 pb) del genoma mitocondrial o cloroplasto de interés. Esta secuencia actúa como punto de partida para el ensamblaje y generalmente proviene de una región conservada, como un gen conocido (por ejemplo, COI para mitocondrias o rbcL para cloroplastos).
++ Secuencia de semilla (seed): Es recomendable contar con una secuencia corta de ADN del genoma mitocondrial o cloroplasto de interés. Esta secuencia actúa como punto de partida para el ensamblaje y generalmente proviene de una región conservada, como un gen conocido (por ejemplo, COI para mitocondrias o rbcL para cloroplastos).
 
 
 
