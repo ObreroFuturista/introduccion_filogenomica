@@ -31,9 +31,9 @@ Descarga los archivos de secuencias crudas. Estos archivos son la subselección 
 
 
 
-[Archivo_R1](dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
+[Archivo_R1](../dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
 
-[Archivo_R2](dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
+[Archivo_R2](../dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
 
 Siguente la pestaña File y luego Open selecciona los arvhivos que descargaste. 
 
