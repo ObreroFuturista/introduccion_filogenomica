@@ -52,14 +52,16 @@ que consiste en limpiar y filtrar las secuencias utilizando Fastp.
 Es una herramienta de preprocesamiento para datos de secuenciación que permite el recorte de adaptadores, el filtrado de lecturas de baja calidad, 
 y la corrección de diversos problemas en las lecturas crudas. Es eficiente y rápida, además de generar un reporte detallado sobre las operaciones realizadas.
 
-![image](https://github.com/user-attachments/assets/7ae390bb-a4a1-4a42-be06-f9e3f091b510)
+![image](https://github.com/user-attachments/assets/f08951e7-88eb-4966-bef8-212c8a23cabe)
+
 
 
 Ya está instalado en el servidor. La manera más eficiente instalarlo en tu propia computadora es a través de conda
 > conda install bioconda::fastqc
 
 Para usarlo en el servidor tenemos que activar el ambiente conda
-![image](https://github.com/user-attachments/assets/9ec2caf7-d953-4949-901a-a01de234e1f3)
+![image](https://github.com/user-attachments/assets/854b391b-177d-4003-a4fa-a0bab6d3a33c)
+
 
 Las lecturas que vamos a filtrar ya estan cargadas en el servidor, para tener acceso a ellas creamos un link simbólico a la carpeta. Primero creamos una carpeta,
 y despues creamos los links simbólicos
