@@ -27,8 +27,8 @@ Para correr novoplasty es necesario lo siguiente
 ## Crear el archivo de configuración
 NOVOPlasty requiere un archivo de configuración que contenga todos los parámetros necesarios para realizar el ensamblaje. A continuación, se muestra un ejemplo de archivo de configuración para un proyecto de ensamblaje mitocondrial:
 
+![image](https://github.com/user-attachments/assets/b8265ccc-4e63-4269-a105-fd7d4e4008dc)
 
-![image](https://github.com/user-attachments/assets/a322a329-207b-479a-a7b8-4bf87ea3d9d4)
 
 Descripción de los parámetros clave:
 + Project name: Nombre del proyecto.
