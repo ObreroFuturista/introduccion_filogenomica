@@ -8,7 +8,13 @@ Este tutorial tiene como objetivo guiar el proceso de uso de NOVOPlasty (Dierckx
 ## Requisitos previos:
 
 
-+ Instalación de NOVOPlasty: Para instalar NOVOPlasty, es necesario clonar su repositorio desde GitHub:
+ Instalación de NOVOPlasty: Para instalar NOVOPlasty, es necesario clonar su repositorio desde GitHub o se puede instalar desde conda
+ > https://anaconda.org/bioconda/novoplasty 
+
+Ya está instalado en el servidor. 
+Se activa el ambiente correspondiente 
+
+> conda activate novoplasty
 
 ![image](https://github.com/user-attachments/assets/fe2c34b5-7929-487f-93dc-3a9745c81245)
 
