@@ -83,17 +83,18 @@ Para ejecutar Fastp con un archivo de lectura forward (R1) y uno reverse (R2), e
 + -q: Calidad mínima
 
 
-![image](https://github.com/user-attachments/assets/f662aa1a-d061-499b-9960-14c9d2738f4a)
+![image](https://github.com/user-attachments/assets/b431e084-8ef4-4a4b-836a-16d6d9aaf9e7)
+
 
 ## Descargar resultados mediante Filezilla
 
 Bajar e instalar Filezilla
 
-![image](https://github.com/user-attachments/assets/37576af7-d65e-4b7c-9697-51b481aaa4dc)
+![image](https://github.com/user-attachments/assets/0c601b9d-9342-4fb1-93ad-4c6d6f451ed1)
 
 Ingresar con los datos de IP, usuario y contraseña
 
-![image](https://github.com/user-attachments/assets/48ca7164-ffb8-4322-8e5c-342e75e88ef7)
+![image](https://github.com/user-attachments/assets/ead29f9a-0f6d-4017-bbb8-570eafee98fb)
 
 Localizar el archivo _fastp.html_. Es el reporte del control de calidad.
 
