@@ -72,7 +72,8 @@ y despues creamos los links simbólicos
 Ejecución básica de Fastp
 Para ejecutar Fastp con un archivo de lectura forward (R1) y uno reverse (R2), el siguiente comando básico será suficiente para realizar una limpieza de las secuencias:
 
-![image](https://github.com/user-attachments/assets/85a83080-f0db-4ffc-a0b2-a6c30341afc4)
+![image](https://github.com/user-attachments/assets/1965a978-cff8-460f-a0f8-a34ed158ae9c)
+
 
 
 + -i: especifica el archivo de lectura forward (R1). 
