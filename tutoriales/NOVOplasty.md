@@ -10,7 +10,7 @@ Este tutorial tiene como objetivo guiar el proceso de uso de NOVOPlasty (Dierckx
 
 + Instalación de NOVOPlasty: Para instalar NOVOPlasty, es necesario clonar su repositorio desde GitHub:
 
-![image](https://github.com/user-attachments/assets/c43823df-1191-49fe-a671-ad52b18d95e5)
+![image](https://github.com/user-attachments/assets/fe2c34b5-7929-487f-93dc-3a9745c81245)
 
 
 + Datos de secuenciación: Se requiere un archivo de secuencias en formato FASTQ con lecturas cortas (Illumina), las cuales pueden estar comprimidas en formato .fastq.gz.
