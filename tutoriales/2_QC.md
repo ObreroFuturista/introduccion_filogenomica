@@ -66,7 +66,7 @@ Para usarlo en el servidor tenemos que activar el ambiente conda
 Las lecturas que vamos a filtrar ya estan cargadas en el servidor, para tener acceso a ellas creamos un link simbólico a la carpeta. Primero creamos una carpeta,
 y despues creamos los links simbólicos
 
-![image](https://github.com/user-attachments/assets/23fb40bc-7c13-474a-a8b9-f36475858a64)
+![image](https://github.com/user-attachments/assets/39371f35-44d6-4872-9d65-8d4d6964c645)
 
 
 Ejecución básica de Fastp
