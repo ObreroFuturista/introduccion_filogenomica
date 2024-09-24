@@ -29,8 +29,11 @@ Al descomprmir la carpeta te deben aparecer estos archivos. Ejecuta fastqc
 
 Descarga los archivos de secuencias crudas. Estos archivos son la subselección de muestras multiplexadas en un pool.  
 
-[Archivo_R1](ddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
-[Archivo_R2](ddrad/sub_Vlad_1_S8_R2_001.fastq.gz)
+
+
+[Archivo_R1](dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
+
+[Archivo_R2](dddrad/sub_Vlad_1_S8_R1_001.fastq.gz)
 
 Siguente la pestaña File y luego Open selecciona los arvhivos que descargaste. 
 
