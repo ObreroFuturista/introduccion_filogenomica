@@ -36,25 +36,26 @@ Ya se encuentra instalado en el servidor. Localmente puede installarse a través
 | AGCGTTGG    | GTATGCAT    | Tpi020  |
 | CTGCAACTG   | CACATGTCT   | Tpi009  |
 
-Abrimos una terminal. Anters organizamos los archivos pasando los datos limpiados con fastq a un directorio llamado _trimmed_ y las secuencias crudas a uno llamado _raw_.
 
-![image](https://github.com/user-attachments/assets/dca618bd-a632-4d4e-8a8b-6bdeabcb1331)
+Los archivos que necesitaremos están en 
+`seqs/rawdata/`
+ 
+ En la carpeta _analisis_ creamos una carpeta
+ 
+`mkdir stacks`
 
-Podemos inspeccionar el archivo _barx.csv_ con los barcodes
+`cd stacks`
 
-![image](https://github.com/user-attachments/assets/d945343a-bb2c-41d5-850a-88123d29ffb0)
+Activamos el ambiente stacks
 
-Activamos el ambiente _stacks_
+`conda activate stacks`
 
-![image](https://github.com/user-attachments/assets/7d50bcd4-7e39-4077-833c-95d77a4d2082)
+Corremos el siguiente comando
 
-Creamos una carpeta llamada demultiplex
+process_radtags -P -p ../../dd
 
-![image](https://github.com/user-attachments/assets/d31eb043-6dc1-4af9-8efc-3b15f833462c)
 
-Ejecutamos el siguiente comando
 
-![image](https://github.com/user-attachments/assets/c310f0fe-e475-4e90-8418-383270851f0e)
 
 Donde: 
 
