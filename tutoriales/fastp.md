@@ -29,12 +29,12 @@ Vamos a utilizar las rutas relativas para usar como inputs los archivos de los l
 
 En donde:
 
--i: Archivo de entrada R1
--I: Archivo de entrada R2
--o: Archivo de salida R1
--O: Archivo de salida R2
--q: Umbral de calidad Q mínimo
--h: Nombre del reporte html
++ -i: Archivo de entrada R1
++ -I: Archivo de entrada R2
++ -o: Archivo de salida R1
++ -O: Archivo de salida R2
++ -q: Umbral de calidad Q mínimo
++ -h: Nombre del reporte html
 
 Aparece un reporte en pantalla
 
