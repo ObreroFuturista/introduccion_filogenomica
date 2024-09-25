@@ -6,4 +6,8 @@ En el directorio analisis crea un nuevo directorio _ipyrad_s_ y situate en ahí.
 
 `cd analisis/ipyrad_s/`
 
+Estando en la carpeta recién creada activa el ambiente de conda que tiene ipyrad
+
+`conda activate ipyrad`
+
 
