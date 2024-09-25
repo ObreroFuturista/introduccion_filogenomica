@@ -52,8 +52,7 @@ Activamos el ambiente stacks
 
 Corremos el siguiente comando
 
-process_radtags -P -p ../../dd
-
+`process_radtags -P -p ../../seqs/rawdata/ -o ./ -b ../../seqs/rawdata/barx.csv -c -q -r --renz-1 nheI --renz-2 ecoRI --inline-inline`
 
 
 
