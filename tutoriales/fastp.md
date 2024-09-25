@@ -47,6 +47,8 @@ Prueba con un valor mas estricto de calidad.
 
 Si usamos _ls_ encontraremos los archiuvos limpiados habo diferentes umbrales de calidad y dos reportes.  
 
+`ls`
+
 ![image](https://github.com/user-attachments/assets/6d1d7e36-d40e-4c18-b4cc-b01c1f0da351)
 
 Vamos usar Filezilla. 
