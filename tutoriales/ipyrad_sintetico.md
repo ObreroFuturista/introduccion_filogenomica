@@ -11,4 +11,5 @@ Estando en la carpeta recién creada activa el ambiente de conda que tiene ipyra
 `conda activate ipyrad`
 
 `conda activate ipyrad
+
 cd denovo_test/`
