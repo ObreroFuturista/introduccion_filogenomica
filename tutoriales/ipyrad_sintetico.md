@@ -15,9 +15,10 @@ Estando en la carpeta recién creada activa el ambiente de conda que tiene ipyra
 
 `conda activate ipyrad`
 
-Para el ensamble de novo vamos autilizar dos arvhivos. 
-+ /home/usr30/seqs/ipyrad_sint/rad_example_R1_.fastq.gz     Que contiene secuencias crudas simuladas para 12 muestras.
-+ /home/usr30/seqs/ipyrad_sint/rad_example_barcodes.txt Los barcodes para demultiplexar las muestras.
+Para el ensamble de novo vamos autilizar dos archivos. 
+
++ `/home/usr30/seqs/ipyrad_sint/rad_example_R1_.fastq.gz` Que contiene secuencias crudas simuladas para 12 muestras.
++ `/home/usr30/seqs/ipyrad_sint/rad_example_barcodes.txt` Los barcodes para demultiplexar las muestras.
 
 Con _tail_ puedes ver la notación de los barcodes, una columna con el nombre de la muestra y se siguiente con el barcode que 
 la identifca
