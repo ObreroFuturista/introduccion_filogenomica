@@ -58,4 +58,6 @@ para generar clusters finales que contienen información de heterocigotos.
 Filtrado y formato de archivos de salida: Se aplican filtros finales a las alineaciones y se generan archivos de salida en diferentes formatos,
 ajustando el porcentaje de datos faltantes y otras características según los parámetros seleccionados.
 
+Para ejecutarlo
 
+`ipyrad -p paramas-test.txt -s 1234567`
