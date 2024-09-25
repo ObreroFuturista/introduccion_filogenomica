@@ -29,3 +29,5 @@ Tenemos que ajustar nuestro ensamble a traves de un archivo de configuración de
 Creamos un archivo de configuración que despues modficaremos. 
 
 `ipyrad -n iptest`
+
+![image](https://github.com/user-attachments/assets/9141bbfb-3616-44c1-81ca-59a255e3311c)
