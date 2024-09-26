@@ -25,10 +25,12 @@ Creamos un archivo de configuración qde parametros ue después modficaremos.
 En este caso las lecturas ya estan demultiplexadas, así el archivo de parametros lo modificaremos 
 para que lea las lecturas individuales desde la carpeta **/seqs/ipyrad_pedic**
 
+/home/usr30/seqs/ipyrad_pedic/*fastq   [4]
+
 También indicamos que el umbral de clustering [14]  sea de 0.90
 
 Cambiamos el parametro [27] por un _*_ para obtener todos los archivos de output
 
 Corremos el ensamble
 
-`ipyrad -n params-pedicularis -s 12345678`
+`ipyrad -p params-pedicularis -s 12345678`
