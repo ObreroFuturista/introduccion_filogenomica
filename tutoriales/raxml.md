@@ -36,5 +36,5 @@ Activamos el ambiente correspondiente
 
 `raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 100 -s pedicularis.phy -n test`
 
-En el archivo RAXML_bipartitions.test estpa el mejor árbol con valores de botstrap en los nodos
+En el archivo RAXML_bipartitions.test esta el mejor árbol con valores de botstrap en los nodos
 
