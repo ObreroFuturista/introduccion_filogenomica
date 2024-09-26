@@ -60,4 +60,4 @@ ajustando el porcentaje de datos faltantes y otras características según los p
 
 Para ejecutarlo
 
-`ipyrad -p params-test.txt -s 1234567`
+`ipyrad -p params-test.txt -s 1234567`-f
