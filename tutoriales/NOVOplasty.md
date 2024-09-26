@@ -43,5 +43,26 @@ Descripción de los parámetros clave:
 ## Ejecutar NOVOPlasty
 Con el archivo de configuración listo, se puede iniciar el ensamblaje. Para ello, debe ejecutarse el siguiente comando en la terminal, dentro del directorio de trabajo que contiene el archivo de configuración y los datos de secuencias.
 
-python NOVOPlasty.py -c config.txt
+
+Crear un directorio para el ensamble de mitogenoa
+
+`mkdir analisis/mitogenoma`
+
+`cd analisis/mitogenoma/`
+
+Copiamos el archivo de configuración a nuestro directorio actual
+
+`cp ../../seqs/mitogenoma_wgs/config.txt ./`
+
+Con nano modificamos las rutas de las lecturas wgs, la semilla y el genoma de referencia
+
+
+
+Activamos el ambiente de NOVOplasty
+
+`conda activate novoplasty`
+
+Corremos el análisis
+
+`python NOVOPlasty.py -c config.txt`
 
