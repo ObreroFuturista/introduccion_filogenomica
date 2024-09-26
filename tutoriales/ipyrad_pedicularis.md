@@ -33,4 +33,4 @@ Cambiamos el parametro [27] por un _*_ para obtener todos los archivos de output
 
 Corremos el ensamble
 
-`ipyrad -p params-pedicularis -s 12345678 -c 2`
+`ipyrad -p params-pedicularis.txt -s 12345678 -c 2`
