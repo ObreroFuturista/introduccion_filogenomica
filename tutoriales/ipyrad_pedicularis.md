@@ -27,7 +27,7 @@ para que lea las lecturas individuales desde la carpeta **/seqs/ipyrad_pedic**
 
 También indicamos que el umbral de clustering **[14]** sea de 0.90
 
-Cambiamos el parametro **[27] **por un _*_ para obtener todos los archivos de output
+Cambiamos el parametro **[27]**por un _*_ para obtener todos los archivos de output
 
 Corremos el ensamble
 
