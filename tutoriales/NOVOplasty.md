@@ -64,5 +64,5 @@ Activamos el ambiente de NOVOplasty
 
 Corremos el análisis
 
-`python NOVOPlasty.py -c config.txt`
+`NOVOPlasty.py -c config.txt`
 
