@@ -20,7 +20,7 @@ Activamos el ambiente de conda de ipyrad
 
 Creamos un archivo de configuración qde parametros ue después modficaremos.
 
-ipyrad -n pedicularis
+`ipyrad -n pedicularis`
 
 En este caso las lecturas ya estan demultiplexadas, así el archivo de parametros lo modificaremos 
 para que lea las lecturas individuales desde la carpeta /seqs/ipyrad_pedic
@@ -30,5 +30,4 @@ Cambiamos el parametro [27] por un _*_ para obtener todos los archivos de output
 
 Corremos el ensamble
 
-ipyrad -n params-pedicularis -s 12345678
-
+`ipyrad -n params-pedicularis -s 12345678`
