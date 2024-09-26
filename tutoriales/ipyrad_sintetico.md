@@ -13,7 +13,7 @@ En el directorio analisis crea un nuevo directorio _ipyrad_s_ y dentro de esta, 
 
 Estando en la carpeta recién creada activa el ambiente de conda que tiene ipyrad
 
-`conda activate ipyrad`
+`conda activate ipyradg`
 
 Para el ensamble de novo vamos autilizar dos archivos. 
 
