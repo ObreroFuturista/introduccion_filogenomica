@@ -3,13 +3,17 @@
 ExaBayes realiza inferencias filogenéticas mediante métodos bayesianos, es particularmente efectivo 
 en análisis de conjuntos de datos a escala genómica.
 
-
+Crear una carpteta
 
 `mkdir analisis/exabayes
 `
 `cd analisis/exabayes/`
 
+Activar el ambiente
+
 `conda activate exabayes`
+
+Copiar el alineamiento
 
 `cp ../ipyrad_p/denovo_pedicularis/pedicularis_outfiles/pedicularis.phy ./`
 
@@ -29,3 +33,13 @@ Donde:
 
   El análisis correra por 1,000,000 generaciones. Para un mayor control de las generaciones y parametros se puede implementar un [archivo de
   configuracion](https://app.assembla.com/spaces/exa-bayes/git/source/master/examples/configFile-all-options.nex)
+
+El análisis completo lleva algún tiempo, lo detenemos para inspeccionar los outputs. 
+
+Generamos un arbol de concenso, lo descargamos y visualizamos en FigTree. 
+
+`./consense -f ExaBayes_topologies.myRun.0 -n test`
+
+En Tracer verificamos los valores de ESS con el archivo. 
+
+ExaBayes_parameters.run-0.test
