@@ -36,7 +36,7 @@ Donde:
 
 El análisis completo lleva algún tiempo, lo detenemos para inspeccionar los outputs. 
 
-Generamos un arbol de concenso, lo descargamos y visualizamos en FigTree. 
+Generamos un arbol de concenso, lo descargamos y visualizamos en FigTree. (ExaBayes_ConsensusExtendedMajorityRuleNexus.myCons)
 
 `./consense -f ExaBayes_topologies.myRun.0 -n test`
 
