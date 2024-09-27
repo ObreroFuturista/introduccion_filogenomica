@@ -46,6 +46,8 @@ Lo extramos con este comando.
 
 `{ echo "#NEXUS"; sed -n '/BEGIN SETS;/,/END;/p' pedicularis.nex; } > particiones.nex`
 
+Corremos el análisis particionado
 
 `iqtree2 -s pedicularis.phy --alrt 1000 -B 1000 --prefix basico -m MFP -mset mrbayes -mrate E,I,G,I+G   -T 2 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -p particiones`
 
+*¡?*
