@@ -35,7 +35,7 @@ Donde
 
 Comparación respecto a RaxML
 
-# Con determinación del mejor## modelo por particion
+# Con determinación del mejor modelo por particion
 
 Copiamos el alineamiento nexus que genero iPyrad. 
 
