@@ -30,7 +30,7 @@ Donde
 + -mrate E,I,G,I+G: Prueba modelos con tasas iguales, sitios invariables, gamma e I+G.
 + -T : Hilos de CPU.
 + -o : outgrpup
-+ -m : Nombre del análisis
++ -prefix : Nombre del análisis
 
 
 Comparación respecto a RaxML
