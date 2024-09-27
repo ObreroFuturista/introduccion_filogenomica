@@ -44,4 +44,8 @@ En el archivo RAXML_bipartitions.test esta el mejor árbol con valores de botstr
 
 # Con Outgroups y bootstraps automáticos
 
-raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -# autoMRE -s pedicularis.phy -n autoB_out
+`raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -# autoMRE -s pedicularis.phy -n autoB_out`
+
++ -o: grupo externo (outgroup). En este caso, se están especificando dos taxones (33588_przewalskii_SRR1754727 y 32082_przewalskii_SRR1754729) como el grupo externo del árbol. Estos taxones servirán como referencia para enraizar el árbol filogenético.
+
++ -# autoMRE: criterio de convergencia automática utilizando MRE (Majority Rule Extended) para determinar el número óptimo de réplicas de bootstrap. Esto significa que el análisis de bootstrap se detendrá automáticamente cuando la topología del árbol y los valores de soporte de los nodos converjan y dejen de cambiar de manera significativa con la adición de más réplicas.
