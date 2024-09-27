@@ -71,6 +71,7 @@ Para anotar el mitogenoma
 Galaxy
 https://usegalaxy.org/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmitos2%2Fmitos2%2F2.1.7%20galaxy0
 
+https://mitofish.aori.u-tokyo.ac.jp/annotation/input/
 
 
 
