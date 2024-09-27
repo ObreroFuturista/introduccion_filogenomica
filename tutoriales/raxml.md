@@ -44,7 +44,11 @@ En el archivo RAXML_bipartitions.test esta el mejor árbol con valores de botstr
 
 # Con Outgroups y bootstraps automáticos
 
-`raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -# autoMRE -s pedicularis.phy -n autoB_out`
+`raxmlHPC-PTHREADS -f a -m GTRGAMMA -p 12345 -x 12345 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -# autoMRE -s pedicularis.phy -n autoB_out -T 2`
+
++ raxmlHPC-PTHREADS: versión de raxml que permite hacer en análisis con varios threads 
+
++ T: número de threads
 
 + -o: grupo externo (outgroup). En este caso, se están especificando dos taxones (33588_przewalskii_SRR1754727 y 32082_przewalskii_SRR1754729) como el grupo externo del árbol. Estos taxones servirán como referencia para enraizar el árbol filogenético.
 
