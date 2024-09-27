@@ -26,3 +26,6 @@ Donde:
 + -f : Especifica el archivo de alineamiento en formato PHYLIP.
 
 + -m DNA: Define el tipo de datos que se están analizando. En este caso, DNA indica que los datos corresponden a secuencias de ADN.
+
+  El análisis correra por 1,000,000 generaciones. Para un mayor control de las generaciones y parametros se puede implementar un [archivo de
+  configuracion](https://app.assembla.com/spaces/exa-bayes/git/source/master/examples/configFile-all-options.nex)
