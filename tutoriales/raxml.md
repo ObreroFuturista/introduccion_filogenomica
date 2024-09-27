@@ -1,7 +1,11 @@
+# RAxML
+
 RAxML (Randomized Axelerated Maximum Likelihood) es uno de los software más poderosos y eficientes para 
 la inferencia filogenética mediante el método de máxima verosimilitud (ML). RAxML es capaz de manejar 
 grandes conjuntos de datos genómicos.
 
+
+# Análisis Básico
 
 El comando básico para inferir un árbol filogenético con bootstrap es el siguiente:
 
@@ -38,3 +42,6 @@ Activamos el ambiente correspondiente
 
 En el archivo RAXML_bipartitions.test esta el mejor árbol con valores de botstrap en los nodos
 
+# Con Outgroups y bootstraps automáticos
+
+raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -o 33588_przewalskii_SRR1754727,32082_przewalskii_SRR1754729 -# autoMRE -s pedicularis.phy -n autoB_out
